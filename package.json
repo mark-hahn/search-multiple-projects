@@ -1,0 +1,17 @@
+{
+  "name": "package-list",
+  "main": "./lib/main",
+  "version": "0.1.1",
+  "description": "Show all installed packages in compact list and enable/disable, view docs, or uninstall in one click",
+  "activationEvents": ["package-list:open"],
+  "repository": "https://github.com/mark-hahn/package-list",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.170.0"
+  },
+  "dependencies": {
+    "space-pen": "5.x.x",
+    "atom-space-pen-views": "^2.0.3",
+    "sub-atom": "*"
+  }
+}
